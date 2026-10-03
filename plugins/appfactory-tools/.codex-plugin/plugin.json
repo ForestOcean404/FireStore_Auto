@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "author": {"name": "ForestOcean404"},
   "repository": "https://github.com/ForestOcean404/FireStore_Auto",
-  "skills": "./SKILL.md",
+  "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "AppFactory Tools",
@@ -12,6 +12,11 @@
     "longDescription": "Manage AppFactory metadata and build operations without exposing signing secrets to the model.",
     "developerName": "ForestOcean404",
     "category": "Developer Tools",
-    "capabilities": ["Read", "Write"]
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": [
+      "Register an Android app in AppFactory",
+      "Check an AppFactory app build",
+      "Prepare a secret-safe Android build"
+    ]
   }
 }
