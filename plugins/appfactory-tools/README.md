@@ -17,3 +17,7 @@ The `.gitignore` excludes JKS files, keystores, APK/AAB artifacts, Firebase clie
 3. Implement the build worker using Gradle and temporary secret files.
 4. Delete temporary signing material after each build.
 5. Return artifact metadata and logs, never secret contents.
+
+## Install for other Codex sessions
+
+Install this repository as a local plugin or add it to the personal marketplace. After installation, start a new Codex thread so the skill and MCP server are discovered again. The MCP host launches `server.py` automatically from `.mcp.json`.
