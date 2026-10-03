@@ -1,8 +1,10 @@
 {
   "name": "appfactory-tools",
   "description": "Secure Android app registration and build tools backed by Google Secret Manager.",
-  "version": "0.1.0",
-  "author": {"name": "ForestOcean404"},
+  "version": "0.1.0+codex.20261003075017",
+  "author": {
+    "name": "ForestOcean404"
+  },
   "repository": "https://github.com/ForestOcean404/FireStore_Auto",
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
@@ -12,7 +14,10 @@
     "longDescription": "Manage AppFactory metadata and build operations without exposing signing secrets to the model.",
     "developerName": "ForestOcean404",
     "category": "Developer Tools",
-    "capabilities": ["Read", "Write"],
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
     "defaultPrompt": [
       "Register an Android app in AppFactory",
       "Check an AppFactory app build",
