@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "appfactory": {
+      "command": "python3",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/server.py"],
+      "env": {
+        "APPFACTORY_PROJECT_ID": "appfactory-admin"
+      }
+    }
+  }
+}

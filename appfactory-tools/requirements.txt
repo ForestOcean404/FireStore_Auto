@@ -1,0 +1,2 @@
+# Production implementation will add the Google Cloud Secret Manager and Firestore clients.
+# Secret values must remain inside the server process and never appear in tool responses.

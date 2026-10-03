@@ -1,0 +1,13 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: appfactory-tools
+spec:
+  template:
+    spec:
+      serviceAccountName: appfactory-tools@appfactory-admin.iam.gserviceaccount.com
+      containers:
+        - image: REGION-docker.pkg.dev/appfactory-admin/appfactory/appfactory-tools:latest
+          env:
+            - name: APPFACTORY_PROJECT_ID
+              value: appfactory-admin

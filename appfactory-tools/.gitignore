@@ -1,0 +1,15 @@
+.app-registry.json
+.app-registry.tmp
+__pycache__/
+.venv/
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.aab
+*.apk
+google-services.json
+local.properties
+.env
+.env.*
+!.env.example
